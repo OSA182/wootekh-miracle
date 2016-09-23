@@ -15,7 +15,7 @@
         <link href="<?php echo base_url('assets/font/BodoniFLF-Roman.ttf')?>" rel="stylesheet" type="text/css" />
 
         <!-- SCRIPT -->
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js?>"></script>
+        <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js?>"></script> -->
         <script type="text/javascript" src="<?php echo base_url('assets/js/bootstrap.js')?>"></script>
         <script type="text/javascript" src="<?php echo base_url('assets/js/bootstrap.min.js')?>"></script>
 
