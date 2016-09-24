@@ -1,7 +1,7 @@
 <!-- naro script -->
-<br>
-    <footer style="margin:0 auto; padding:0; text-align:center;">
+
+    <div class="footer">
       <em>&copy; 2016</em> Wootekh Miracle. All rights reserved.
-    </footer>
+    </div>
 </body>
 </html>

@@ -1,4 +1,4 @@
-<?php $this->load->view('pages/header');?>
-<?php $this->load->view('pages/menu');?>
-<?php $this->load->view('pages/content');?>
-<?php $this->load->view('pages/footer');?>
+<?php $this->load->view('template/header');?>
+<?php $this->load->view('template/menu');?>
+<?php $this->load->view('pages/home');?>
+<?php $this->load->view('template/footer');?>
