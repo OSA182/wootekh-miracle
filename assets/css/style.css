@@ -20,12 +20,13 @@ body{
 
 .produk3-img{
 	width:500px;
-	max-width: 60%;
+	max-width: 80%;
 	margin-left: 10%;
 }
 
 .produk4-img{
-	width:56%;
+	width:400px;
+	max-width: 80%;
 	margin-left: 10px;
 }
 
@@ -81,6 +82,18 @@ body{
 	margin-bottom: 50px;
 }
 
+.logo-icon{
+	position: fixed;
+	left: 50%;
+	top: 8px;
+	margin-left: -10px;
+	display: none;
+}
+
+.logo-icon img {
+	width: 20px !important;
+}
+
 .form-control {
 	border: 1px solid #ccc;
 	-webkit-transition: 0.5s;
@@ -107,7 +120,6 @@ body{
 
 .poe{
 	background-color: #fafafa;
-	padding-left: 50px;
 	padding-top: 20px;
 	padding-right: 20px;
 }
@@ -126,7 +138,12 @@ body{
 
 .big_image{
 	margin-top: 200px;
+	height: 400px;
 	margin-bottom: 100px;
+}
+
+.big_image img{
+	position: absolute;
 }
 .deskripsi{
 	margin-top:200px;
@@ -183,9 +200,13 @@ li{
 	color: #FFF;
 	display: none;
 	position: absolute;
-	right: 10px;
-	top: 8px;
+	right: 15px;
+	top: 2px;
 	font-size: 25px;
+}
+
+.navbar-1 i{
+	font-size: 16px;
 }
 
 #detail{
@@ -251,7 +272,7 @@ button{
 }
 
 img{
-	width: 100%;
+	max-width: 100%;
 }
 
 .text-center{
@@ -263,12 +284,28 @@ img{
 	text-align: center;
 }
 
+.no-padding{
+	padding: 0px !important;
+}
 
 
+a{
+	transition: all 0.5s;
+}
 
+a:hover{
+	transition: all 0.5s;
+}
 
+.girl-container{
+	min-height: 400px;
+	overflow: hidden;
+}
 
-
+.girl-container img{
+	position: absolute;
+	width: 400px;
+}
 
 
 
@@ -291,14 +328,29 @@ img{
 
 
 @media screen and (max-width: 1000px ){
-	#pull { display:block; }
-	.navbar-1, .navbar-2{
+	#pull, .logo-icon { display:block; }
+	.navbar-1{
+		display:none;
+	}
+	.navbar-2{
 		display:none;
 	}
 
-	.master{ height: 50px; }
+	.navbar-2{
+		position: fixed;
+		top: 40px;
+		left: 0px;
+		width: 100% ;
+	}
+	.navbar-wootekh li{
+		width: 100%;
+		background: #333;
+	}
+
+	.master{ height: 40px; position: fixed; width: 100%; z-index: 9999;}
 
 	.navbar-3 .nav{
+		position: fixed;
 		left: 0px;
 		top: 0px;
 	}
@@ -307,5 +359,14 @@ img{
 		width: auto;
 		display: inline;
 		float: left;
+	}
+
+	.navbar-nav{
+		margin: 0px;
+		left: 0px;
+	}
+
+	.poe2{
+	padding: 0px;
 	}
 }

@@ -22,5 +22,15 @@
         <script type="text/javascript" src="<?php echo base_url('assets/js/bootstrap.min.js')?>"></script>
     	<script src="<?= base_url('assets/js/jquery.easing.1.3.js') ?>"></script>
     	<script src="<?= base_url('assets/js/jquery.jkit.1.2.16.min.js') ?>"></script>
+        <script>
+        $(function() {
+            var pull = $('#pull');
+            var menu = $('.navbar-2');
 
+            $(pull).on('click', function(e) {
+              e.preventDefault();
+              menu.slideToggle();
+            });
+          });
+        </script>
     </head>

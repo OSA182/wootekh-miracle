@@ -9,7 +9,7 @@
 
     <div class="container deskripsi">
         <div class="col-md-6" style="text-align:center">
-            <img src="assets/img/produk.png" alt="image" class="produk-img" />
+            <img src="assets/img/produk.png" alt="image" class="produk-img"/>
         </div>
         <div class="col-md-6">
             <h2>WOOTEKH MIRACLE SILK MASK</h2>
@@ -26,7 +26,7 @@
         </div>
     </div>
 
-    <div class="col-md-12 big_image" style="text-align:center">
+    <div class="col-md-12 big_image" style="text-align:center" data-jkit="[parallax:strength=1;axis=both]">
         <img src="assets/img/produk2.png" alt="image" class="produk2-img"/>
     </div>
 
@@ -87,13 +87,13 @@
 
         <div class="news">
             <div class="col-md-6 poe2">
-                <div class="col-sm-10 col-sm-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 girl-container" data-jkit="[parallax:strength=1;axis=x;]">
                     <img src="assets/img/girl.png" alt="" class="girl-img"/>
                 </div>
             </div>
 
             <div class="col-md-6 poe2">
-                <div class="col-sm-10">
+                <div class="col-md-10">
                     Support
                     <h2>Kami disini untuk membantu anda</h2>
                     <br>
@@ -123,7 +123,7 @@
                 Be the first to know about new arrivals and receive exclusive access to our events.
             </p>
             <div class="col-sm-12">
-                <div class="col-md-4 col-md-offset-4">
+                <div class="col-md-4 col-md-offset-4 no-padding">
                     <div class="input-group">
                         <input type="text" id="search" name="search" placeholder="Email Address" class="form-control input-lg">
                         <span class="input-group-btn">
