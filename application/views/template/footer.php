@@ -1,5 +1,44 @@
 <!-- naro script -->
+<div class="last">
+    <img src="assets/img/logo.png" alt="logo" class="logo" />
+    <p>
+        Be the first to know about new arrivals and receive exclusive access to our events.
+    </p>
+    <div class="col-sm-12">
+        <div class="col-md-4 col-md-offset-4 no-padding">
+            <div class="input-group">
+                <input type="text" id="search" name="search" placeholder="Email Address" class="form-control input-lg">
+                <span class="input-group-btn">
+                    <button class="btn btn-lg btn-wootekh"><i class="ion ion-android-send"></i></button>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix">
 
+    </div>
+    <div id="menu-last">
+        <ul>
+            <li><a href="<?= base_url('about/') ?>">About</a></li>
+            <li>/</li>
+            <li><a href="<?= base_url('contact/') ?>">Contact</a></li>
+            <li>/</li>
+            <li><a href="#">Wholesale</a></li>
+            <li>/</li>
+            <li><a href="<?= base_url('faq/') ?>">FAQ</a></li>
+            <li>/</li>
+            <li><a href="#">Privacy</a></li>
+            <li>/</li>
+            <li><a href="#">Terms</a></li>
+        </ul>
+        <ul>
+            <li><a href="#"><i class="fa fa-2x fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-2x fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-2x fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-2x fa-google-plus"></i></a></li>
+        </ul>
+    </div>
+</div>
     <div class="footer">
       <em>&copy; 2016</em> Wootekh Miracle. All rights reserved.
     </div>

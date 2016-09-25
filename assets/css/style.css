@@ -183,6 +183,8 @@ body{
 	position: relative;
 	display: inline-block;
 	text-align: center;
+	font-size: 12px;
+	letter-spacing: 1px;
 }
 
 .navbar-wootekh li {
@@ -279,6 +281,10 @@ img{
 	text-align: center !important;
 }
 
+.text-justify{
+	text-align: justify !important;
+}
+
 .footer{
 	padding: 10px 0px 20px 0px !important;
 	text-align: center;
@@ -307,6 +313,10 @@ a:hover{
 	width: 400px;
 }
 
+
+.content{
+	padding-top: 100px;
+}
 
 
 

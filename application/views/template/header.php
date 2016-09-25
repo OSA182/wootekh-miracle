@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Wootekh Miracle</title>
+        <title><?php if(isset($title)) echo $title . ' | ' ?>Wootekh Miracle</title>
         <link rel='shortcut icon' type='image/x-icon' href='  assets/img/favicon.ico'/>
         <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
 

@@ -12,11 +12,12 @@
 
             <div class="col-md-8 navbar-2 no-padding">
                 <ul class="nav navbar-nav navbar-wootekh no-padding">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Wootekh Miracle Product</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">FAQ</a></li>
+                    <li class="hidden-md"><a href="<?= base_url() ?>"><img src="<?= base_url('assets/img/logo-icon.png') ?>" width="15px" ></a></li>
+                    <li><a href="<?= base_url('about/') ?>">ABOUT US</a></li>
+                    <li><a href="<?= base_url('product/') ?>">WOOTEKH MIRACLE PRODUCT</a></li>
+                    <li><a href="<?= base_url('contact/') ?>">CONTACT US</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="<?= base_url('faq/') ?>">FAQ</a></li>
                 </ul>
             </div>
             <div class="col-md-2 navbar-3">
